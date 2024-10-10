@@ -1,1 +1,0 @@
-# wamyid.github.io
