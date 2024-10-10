@@ -5,40 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhatsAuth | Free WhatsApp API OTP Notif Broadcast Gratis</title>
+    <link href="./src/css/custom.css" rel="stylesheet">
     <link href="./src/css/style.css" rel="stylesheet">
 </head>
 <body>
-
-    
-
-    <div id="hasphonenumber" class="w-full h-screen bg-blue-100 flex items-center justify-center">
-        <div class="w-96 bg-white rounded-xl">
-            <p class="font-bold text-center mb-4" id="useracclog">Tap/Scan dengan <a href="./assets/img/camwab.jpg" target="_blank">Camera WA</a></p>
-            <div class="flex justify-center mt-2 mb-4" id="whatsauthqr">
-                <svg class="lds-microsoft" width="80px"  height="80px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><g transform="rotate(0)"><circle cx="81.73413361164941" cy="74.35045716034882" fill="#e15b64" r="5" transform="rotate(340.001 49.9999 50)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="0s"></animateTransform>
-							  </circle><circle cx="74.35045716034882" cy="81.73413361164941" fill="#f47e60" r="5" transform="rotate(348.352 50.0001 50.0001)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.0625s"></animateTransform>
-							  </circle><circle cx="65.3073372946036" cy="86.95518130045147" fill="#f8b26a" r="5" transform="rotate(354.236 50 50)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.125s"></animateTransform>
-							  </circle><circle cx="55.22104768880207" cy="89.65779445495241" fill="#abbd81" r="5" transform="rotate(357.958 50.0002 50.0002)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.1875s"></animateTransform>
-							  </circle><circle cx="44.77895231119793" cy="89.65779445495241" fill="#849b87" r="5" transform="rotate(359.76 50.0064 50.0064)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.25s"></animateTransform>
-							  </circle><circle cx="34.692662705396415" cy="86.95518130045147" fill="#e15b64" r="5" transform="rotate(0.183552 50 50)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.3125s"></animateTransform>
-							  </circle><circle cx="25.649542839651176" cy="81.73413361164941" fill="#f47e60" r="5" transform="rotate(1.86457 50 50)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.375s"></animateTransform>
-							  </circle><circle cx="18.2658663883506" cy="74.35045716034884" fill="#f8b26a" r="5" transform="rotate(5.45126 50 50)">
-								<animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.4375s"></animateTransform>
-							  </circle><animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;0 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s"></animateTransform></g>
-				</svg>
+    <div id="hasphonenumber" class="w-full h-screen flex items-center justify-center">
+        <div class="w-80 bg-stone-950 rounded-3xl">
+            <div class="">
+              <div id="whatsauthqr">
+                <div class="h-32 w-80 bg-stone-950">
+                  <center>
+                    <svg class="spinner-svg mt-12 pt-12" width="80px" height="80px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                      <g>
+                        <animateTransform attributeName="transform" type="rotate" values="0 33 33;270 33 33" begin="0s" dur="1.4s" fill="freeze" repeatCount="indefinite"/>
+                        <circle fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30" stroke-dasharray="187" stroke-dashoffset="610">
+                          <animate attributeName="stroke" values="#919191" begin="0s" dur="5.6s" fill="freeze" repeatCount="indefinite"/>
+                          <animateTransform attributeName="transform" type="rotate" values="0 33 33;135 33 33;450 33 33" begin="0s" dur="1.4s" fill="freeze" repeatCount="indefinite"/>
+                          <animate attributeName="stroke-dashoffset" values="187;46.75;187" begin="0s" dur="1.4s" fill="freeze" repeatCount="indefinite"/>
+                        </circle>
+                      </g>
+                    </svg>
+                  </center>
+  
+                </div>
+              </div>
+              <div class="my-6 text-center">
+                <p class="font-extrabold px-8 pt-8 text-xl">Scan QR Code to proceed</p>
+                <p class="px-4 pt-4 text-sm">Use your device to scan the QR code and send a login request to our bot via WhatsApp</p>
+              </div>
+              <div id="whatsauthcounter" hidden>Counter</div>
+              <div class="pt-4 pb-8">
+                    <p class="text-center text-white text-xs">
+                        2023 &copy; Lilium Project. Powered by <a href="https://whatsauth.my.id">WhatsAuth</a>
+                    </p>
+                </div>
             </div>
-            <p class="font-bold text-center mb-4" id="whatsauthcounter">counter</p>
-            <p class="font-bold text-center mb-4" id="logs"><a href="https://whatsauth.my.id">WhatsAuth Free WhatsApp Notif, OTP, API Gateway Gratis</a></p>
         </div>
     </div>
-
-<script src="./src/js/index.js" type="module"></script>
+	<script src="./src/js/index.js" type="module"></script>
 </body>
 </html>
